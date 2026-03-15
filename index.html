@@ -2,86 +2,111 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title> Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Designer & Frontend Developer</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-  <header>
-    <div class="nav-container">
-      <h2 class="logo"></h2>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </div>
-  </header>
-
-  <!-- HOME -->
-  <section id="home" class="home">
-    <div class="home-text">
-
-      <div class="image-row">
-        <div class="sujana"><img src="photo.jpg" alt="Sujana Rijal"></div>
-        
-        <h1>Hello, I'm Sujana Rijal</h1>
-    
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"></div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
+    </nav>
 
-      </div>
-  </section>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <div class="home-content">
+                <div>
 
-  <!-- ABOUT -->
+                    <div class="home-text">
+                        <img src="./photo.png" alt="Sujana Rijal" >
+                        <div class="text-content">
+                            <h1>Hi! I am Sujana Rijal</h1>
+                            <p>A passionate Designer and Frontend Learner who loves to make responsive, and
+                                user-friendly
+                                websites. I specialize in building web interface using HTML, CSS and Javascript,
+                                focusing on both desing and performance.I aim to write clean code, and aim to deliver
+                                smooth user experiences.</p>
+                        </div>
 
-  <section id="about">
-    <h1>About Me</h1>
-    <p>
 
-      I focus on clear code, responsive layouts, and structured design
-      that works smoothly across all devices.
-    </p>
+                    </div>
+                </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am a Designer and Frontend Developer who loves to make responsive, and user-friendly
+                    websites. I specialize in building web interface using HTML, CSS and Javascript, focusing on both
+                    design and performance. I enjoy turning ideas into real websites. I pay attention to details, write
+                    clean code, and aim to deliver smooth user experiences across all devices.</p>
+            </div>
+        </div>
+    </section>
 
-    <!-- SKILLS -->
+    <!-- Skills Section -->
     <section id="skills">
-      <h1>Skills</h1>
-      </a>
-      <P>HTML</P>
-
-      <p>CSS</p>
-
-      <p>Javascript Basics</p>
+        <div class="container">
+            <h2 class="section-title"> Skills</h2>
+            <div class="skills-content">
+                <div class="skill-card">
+                    <div class="skill-icon">🔤</div>
+                    <h3>HTML</h3>
+                    <p> Building website that works perfectly across all devices.Understanding elements, tags,
+                        attributes, and the core document structure to create web pages that browsers can display.
+                    </p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>CSS</h3>
+                    <p>Knowledge in CSS3 Grid, animations, and responsive overview. Creating beautiful, performant
+                        interfaces with styling techniques.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>JavaScript basics and building interactive user experiences.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
-
-    <a
-      href="https://www.figma.com/proto/RraYi1fGWVjJ0vIrMa72uY/Juice-Design?node-id=14-2&p=f&t=L5C7iAgmKVPLbXlt-1&scaling=contain&content-scaling=fixed&page-id=0%3A1">
-      <div class="img-placeholder"></div>
-      <h3>Figma Design</h3>
-    </a>
-
-    <!-- CONTACT -->
+    <!-- Contact Section -->
     <section id="contact">
-      <h1>Contact Me</h1>
-
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required>
-        <input type="email" placeholder="Your Email" required>
-        <textarea placeholder="Your Message" rows="5" required></textarea>
-        <button type="submit">Send Message</button>
-      </form>
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get In Touch</h2>
+                <form>
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
     </section>
-    </div>
-    <footer>
-      © 2026 Sujana Rijal. All rights reserved.
-    </footer>
-
-    <script src="script.js"></script>
 </body>
 
 </html>
